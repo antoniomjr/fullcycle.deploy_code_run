@@ -46,7 +46,3 @@ func TestGetTemperature(t *testing.T) {
 		t.Errorf("Expected non-zero temperature, got %f", temp)
 	}
 }
-
-func contains(s, substr string) bool {
-	return len(s) >= len(substr) && s[:len(substr)] == substr
-}
