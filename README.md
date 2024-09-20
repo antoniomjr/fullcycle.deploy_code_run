@@ -22,3 +22,8 @@ docker-compose up -build
 ```bash
 curl http://localhost:8080/weather?cep=seu_cep_aqui
 ```
+
+#### Request by terminal
+```bash
+curl http://localhost:8080/weather?cep=seu_cep_aqui
+```
