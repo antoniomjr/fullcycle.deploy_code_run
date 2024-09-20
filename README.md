@@ -23,7 +23,7 @@ docker-compose up -build
 curl http://localhost:8080/weather?cep=seu_cep_aqui
 ```
 
-#### Request by terminal
+#### Request by browser
 ```bash
 https://deploy-code-run-563666353735.us-central1.run.app/weather?cep=seu_cep_aqui
 ```
